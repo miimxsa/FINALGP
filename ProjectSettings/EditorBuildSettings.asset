@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/BEDROOM.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/LIVINGROOM.unity
+    guid: 43b83c7c1c4a7d54e83899ac65809e50
+  - enabled: 1
+    path: Assets/Scenes/OUTSIDE.unity
+    guid: bd84bcfdccdc8d04ca2e9e8ea7d11cea
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: f41eb89649de3e840a93a36f0d4c3e9a, type: 2}
