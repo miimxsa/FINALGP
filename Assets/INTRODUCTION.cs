@@ -16,7 +16,7 @@ public class INTRODUCTION : MonoBehaviour
         {
             dialogueCanvas.enabled = true;
 
-            GetComponent<TYPEWRITEREFFECT>().Run("ALIEN GIRL: Recently I've been studying how humans live.. I've decided I'm going to be a teen human girl!", textLabel);
+            GetComponent<TYPEWRITEREFFECT>().Run("ALIEN GIRL: Recently I've been studying how humans live.. I've decided I'm going to be a teen human girl! Now where did I leave all my stuff?", textLabel);
 
             StartCoroutine(HideDialogueAfterTime(15f));
 
