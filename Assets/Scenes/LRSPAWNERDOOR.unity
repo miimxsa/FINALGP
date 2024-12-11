@@ -1174,7 +1174,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0847491, y: -1.9459194}
@@ -1578,6 +1578,7 @@ GameObject:
   - component: {fileID: 1719319690}
   - component: {fileID: 1719319689}
   - component: {fileID: 1719319688}
+  - component: {fileID: 1719319691}
   m_Layer: 0
   m_Name: pet
   m_TagString: Untagged
@@ -1614,7 +1615,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.34675205, y: 2.3502069}
@@ -1691,12 +1692,27 @@ Transform:
   m_GameObject: {fileID: 1719319687}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.36, y: 0.97, z: 0}
+  m_LocalPosition: {x: 0.15, y: -1.66, z: 0}
   m_LocalScale: {x: 0.436, y: 0.436, z: 0.436}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1719319691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719319687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ca6db8f60f04746af43ec6e9ae6959, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpawnPos: {x: -2.03, y: 0.97}
+  maxSpawnPos: {x: 0.15, y: -1.66}
+  notebook: {fileID: 1719319687}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

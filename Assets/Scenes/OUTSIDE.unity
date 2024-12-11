@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 616697101}
   - component: {fileID: 616697100}
   - component: {fileID: 616697099}
+  - component: {fileID: 616697102}
   m_Layer: 0
   m_Name: scissors
   m_TagString: Untagged
@@ -169,7 +170,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.28291073, y: 2.5587373}
@@ -252,6 +253,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &616697102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616697098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ca6db8f60f04746af43ec6e9ae6959, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpawnPos: {x: 0, y: 0}
+  maxSpawnPos: {x: 0, y: 0}
+  notebook: {fileID: 616697098}
 --- !u!1 &646767883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,7 +1213,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0847491, y: -1.9459194}

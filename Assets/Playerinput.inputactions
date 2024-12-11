@@ -33,7 +33,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "interact",
+                    "name": "Interact",
                     "type": "Button",
                     "id": "f8237436-f677-4db0-be6b-f73944b1313f",
                     "expectedControlType": "Button",
@@ -267,10 +267,10 @@
                     "name": "",
                     "id": "c8c06ba5-1d07-47ef-a502-c3bbc32a44fe",
                     "path": "<Keyboard>/e",
-                    "interactions": "Press",
+                    "interactions": "Press(behavior=2)",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "interact",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -366,6 +366,15 @@
                     "type": "PassThrough",
                     "id": "9a2c88d8-9804-4fbb-9128-53a7a9972592",
                     "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "096c4a0e-b1ff-45de-9f03-3cedf769a877",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -787,6 +796,17 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b11dc55a-79ac-424e-9d97-ada030424aa9",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
