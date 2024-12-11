@@ -791,6 +791,54 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "gameplay",
+            "id": "eb5d187f-8f9f-4c6b-b58c-64f39439494c",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "3b3dee9d-fe5f-4caf-af3f-551cde7dbc57",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "loadbedroom",
+                    "type": "Button",
+                    "id": "54c0a11b-8197-4a09-b5c4-2dc537f43c28",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0fad95e8-f628-46e7-abe2-6b8a94212e39",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f7e79edf-522b-4a54-b6ae-72af328f9010",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "loadbedroom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

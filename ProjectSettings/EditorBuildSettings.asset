@@ -6,11 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/STARTGAME.unity
+    guid: 68b4fbebd628239479a4f484416d0ce1
+  - enabled: 1
     path: Assets/Scenes/BEDROOM.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/BEDROOMNOTXT.unity
+    guid: a9b3820e517d5224c9e7b2113803d3df
+  - enabled: 1
     path: Assets/Scenes/LIVINGROOM.unity
     guid: 43b83c7c1c4a7d54e83899ac65809e50
+  - enabled: 1
+    path: Assets/Scenes/LRSPAWNERDOOR.unity
+    guid: 8766f4b94bc86294b9c1c640aea7a7e3
   - enabled: 1
     path: Assets/Scenes/OUTSIDE.unity
     guid: bd84bcfdccdc8d04ca2e9e8ea7d11cea
